@@ -1,29 +1,25 @@
 {
-  "name": "test-software-engineer",
+  "name": "interview-coding-test",
   "version": "1.0.0",
   "description": "ComparaOnline Software Engineer Test",
   "main": "index.js",
   "scripts": {
-    "test": "mocha spec/*.js"
+    "test": "mocha spec/*.js",
+    "after-30-days": "node public/report_a_30_d.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/comparaonline/test-software-engineer.git"
+    "url": "git+https://github.com/macm64/interview-coding-test.git"
   },
-  "keywords": [
-    "comparaonline",
-    "test",
-    "software",
-    "engineer"
-  ],
-  "author": "ComparaOnline",
+  "keywords": [],
+  "author": "macm64",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/comparaonline/test-software-engineer/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/comparaonline/test-software-engineer#readme",
+  "homepage": "",
   "devDependencies": {
     "chai": "^4.1.2",
-    "mocha": "^4.0.1"
+    "mocha": "^4.1.0"
   }
 }
